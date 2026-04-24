@@ -1,5 +1,5 @@
--- SET SQL_SAFE_UPDATES = 0; -- Có thể ctrl + shift + enter test nhanh
-DROP DATABASE test;
+SET SQL_SAFE_UPDATES = 0; -- Tắt safe mode
+-- DROP DATABASE test; -- Có thể ctrl + shift + enter test nhanh
 CREATE DATABASE test;
 
 USE test;
